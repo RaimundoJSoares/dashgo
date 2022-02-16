@@ -1,9 +1,10 @@
-import { Flex, Input, Text, Icon} from '@chakra-ui/react'
-import {RiSearchLine} from 'react-icons/ri'
+import { Flex, Input, Text, Icon, HStack} from '@chakra-ui/react'
+import {RiNotification2Line, RiSearchLine, RiUserAddLine} from 'react-icons/ri'
 
 export default function Header() {
   return(
     <Flex 
+
     as='header'
     mt='4'
     maxWidth={1480}
@@ -44,8 +45,24 @@ export default function Header() {
           px='4'
           mr='4'
           />
-          <Icon as = {RiSearchLine} fontSize='20'/>
+          <Icon as = {RiSearchLine} fontSize= '20'/>
         </Flex> 
+        <Flex
+        align='center'
+        ml='auto'
+        >
+          <HStack spacing='8'
+          mx='8'
+          pr='8'
+          py='1'
+          color='gray.300'
+          borderRightWidth={1}
+          borderColor = 'gray.700'
+          >
+            <Icon as ={RiNotification2Line} fontSize='20'/>
+            <Icon as ={RiUserAddLine} fontSize='20'/>
+          </HStack>
+        </Flex>
     </Flex>
   );
 }
