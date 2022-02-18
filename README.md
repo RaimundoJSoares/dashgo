@@ -8,3 +8,4 @@ TypeScript <br>
 Chakra UI <br>
 Next JS <br>
 Miraje Js <br>
+ApexCharts <br>
