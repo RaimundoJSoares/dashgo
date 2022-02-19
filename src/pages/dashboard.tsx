@@ -2,6 +2,7 @@ import { Box, Flex, SimpleGrid, Text, theme } from "@chakra-ui/react";
 import dynamic from "next/dynamic";
 import { SideBar } from "../components/Form/sidebar";
 import Header from "../components/Header";
+import UserList from "./users";
 
 const Chart = dynamic(() => import('react-apexcharts'), 
 {ssr:false})
@@ -67,7 +68,6 @@ const series = [
     data:[ 2, 15, 27, 84, 148, 162, 227, 69, 154, 284]
   }
 ]
-
 
 export default function Dashboard() {
   return (
