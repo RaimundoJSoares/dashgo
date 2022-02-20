@@ -11,6 +11,7 @@ import {
 import { Input } from "../../components/Form/input";
 import { SideBar } from "../../components/SideBar/sidebar";
 import Header from "../../components/Header";
+import Link from "next/link";
 
 export default function UserCreate() {
   return (
@@ -39,7 +40,9 @@ export default function UserCreate() {
           </VStack>
           <Flex mt='8' justify='flex-end'>
             <HStack spacing='4'>
-              <Button colorScheme='whiteAlpha'>Cancelar</Button>
+            <Link href='/users' passHref>
+              <Button as='a' colorScheme='whiteAlpha'>Cancelar</Button>
+            </Link>
               <Button colorScheme='purple'>Salvar</Button>
             </HStack>
           </Flex>
