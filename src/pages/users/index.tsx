@@ -69,7 +69,7 @@ export default function UserList() {
                     as="a"
                     size="sm"
                     fontSize="sm"
-                    colorScheme="purple"
+                    colorScheme='purple'
                     leftIcon={<Icon as={RiPencilLine} fontSize="15" />}
                   >
                     Editar
