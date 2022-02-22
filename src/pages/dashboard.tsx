@@ -25,7 +25,7 @@ export default function Dashboard() {
           minChildWidth="320px"
           alignItems="flex-start"
         >
-          <Box padding="8" bg="gray.800" borderRadius={8} pb="4">
+          <Box padding={["6","8"]} bg="gray.800" borderRadius={8} pb="4">
             <Text fontSize="lg" mb="4">
               Inscritos da semana
             </Text>
@@ -90,7 +90,7 @@ export default function Dashboard() {
               height={160}
             />
           </Box>
-          <Box padding="8" bg="gray.800" borderRadius={8} pb="4">
+          <Box padding={["6", "8"]} bg="gray.800" borderRadius={8} pb="4">
             <Text fontSize="lg" mb="4">
               Taxa de abertura
             </Text>
