@@ -4,6 +4,11 @@ import  {Input } from "../components/Form/input";
 import * as yup from 'yup';
 import {yupResolver} from '@hookform/resolvers/yup'
 
+type SignInFormData = {
+  email: string;
+  password: string;
+}
+
 const signInFormSchema = yup.object().shape({
   email: yup.string().required('E-mail Obrigatório').email('Digite um E-mail válido'),
   password:yup.string().required('Senha Obrigatória'),
@@ -15,11 +20,6 @@ export default function SignIn() {
   })
 
   const {errors} = formState
-
-  type SignInFormData = {
-    email: string;
-    password: string;
-  }
 
 
   const handleSignIn: SubmitHandler<SignInFormData> = async (values) => {
