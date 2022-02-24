@@ -1,7 +1,7 @@
 # dashgo
 ![image](https://user-images.githubusercontent.com/61881055/154334735-7069a878-8b0c-48f1-8caf-590e482a9ac7.png)
 ![image](https://user-images.githubusercontent.com/61881055/155616933-c6a0bb60-7b1c-4483-8780-aedb80aa3aaa.png)
-![image](https://user-images.githubusercontent.com/61881055/154774966-7db818c9-7c6d-4ba1-879b-b6dc91b4631b.png)
+![image](https://user-images.githubusercontent.com/61881055/155617967-dc6be565-f2d2-486b-abe6-963208b7237a.png)
 ![image](https://user-images.githubusercontent.com/61881055/155617140-45709fb4-78f8-44be-aa9d-78c1ea9ce0e7.png)
 <br>
 ###  Responsive
