@@ -15,3 +15,5 @@ Next JS <br>
 SSG <br>
 Miraje Js <br>
 ApexCharts <br>
+React Hook-form  <br>
+Yup  <br>
