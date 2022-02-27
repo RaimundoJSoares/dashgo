@@ -33,7 +33,7 @@ export default function UserList() {
         id: user.id,
         name: user.name,
         email: user.email,
-        createdAt: new Date(user.CreatedAt).toLocaleDateString('pt-BR', {
+        createdAt: new Date(user.createdAt).toLocaleDateString('pt-BR', {
           day: '2-digit',
           month: 'long',
           year: 'numeric',
@@ -105,7 +105,7 @@ export default function UserList() {
                               </Text>
                             </Box>
                           </Td>
-                          {isWideVersion && <Td>{user.created_at}</Td>}
+                          {isWideVersion && <Td>{user.createdAt}</Td>}
                           <Td>
                             <Button
                               as="a"
