@@ -21,6 +21,7 @@ Miraje Js <br>
 ApexCharts <br>
 React Hook-form  <br>
 Yup  <br>
-faker <br>
+fakerjs <br>
 React Query<br>
 Query DevTools <br>
+Axios <br>
