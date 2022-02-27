@@ -22,3 +22,5 @@ ApexCharts <br>
 React Hook-form  <br>
 Yup  <br>
 faker <br>
+React Query<br>
+Query DevTools <br>
