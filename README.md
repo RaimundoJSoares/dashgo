@@ -25,3 +25,4 @@ fakerjs <br>
 React Query<br>
 Query DevTools <br>
 Axios <br>
+SSR <br>
