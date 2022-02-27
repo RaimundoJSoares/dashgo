@@ -24,3 +24,4 @@ Yup  <br>
 faker <br>
 React Query<br>
 Query DevTools <br>
+Axios <br>
