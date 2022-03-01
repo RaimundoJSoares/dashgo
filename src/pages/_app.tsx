@@ -1,10 +1,12 @@
 import { AppProps } from 'next/app'
 import {ChakraProvider} from '@chakra-ui/react'
 import { theme } from '../styles/theme'
+
 import { SideBarDrawerProvider } from '../contexts/SideBarDrawer'
 import { makeServer } from '../components/services/mirage'
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { ReactQueryDevtools } from 'react-query/devtools'
+import { queryClient } from '../components/services/queryClient'
 
 if(process.env.NODE_ENV === 'development') {
   makeServer();
@@ -12,7 +14,7 @@ if(process.env.NODE_ENV === 'development') {
 
 function MyApp({ Component, pageProps } : AppProps) {
   return (
-    <QueryClientProvider client={new QueryClient}>
+    <QueryClientProvider client={queryClient}>
       <ChakraProvider theme={theme}>
         <SideBarDrawerProvider>
           <Component {...pageProps} />
