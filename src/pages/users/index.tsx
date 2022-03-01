@@ -104,7 +104,12 @@ export default function UserList() {
                       );
                     })}
                   </Tbody>
-                </Table><Pagination /></>
+                </Table><Pagination 
+                  totalCountOfRegisters={200}
+                  currentPage={5}
+                  onPageChange={() => {}}
+                  
+                /></>
          )}
         </Box>
       </Flex>
